@@ -1,4 +1,4 @@
-package srp;
+package srp.problema;
 
 public enum Cargo {
 	

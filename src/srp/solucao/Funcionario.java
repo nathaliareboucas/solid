@@ -1,4 +1,4 @@
-package srp;
+package srp.solucao;
 
 public class Funcionario {
 
@@ -28,6 +28,10 @@ public class Funcionario {
 
 	public void setSalario(double salario) {
 		this.salario = salario;
+	}
+
+	public double calculaSalario() {
+		return cargo.getRegra().calcula(this);
 	}
 
 }
